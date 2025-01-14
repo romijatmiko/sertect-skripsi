@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/rounded_monitoring"
+    android:padding="2dp"
+    android:backgroundTint="@color/bluenew"
+    android:layout_marginBottom="8dp">
+
+    <!-- Header Layout with Icon and Word Title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <!-- Star Icon -->
+        <ImageView
+            android:id="@+id/icon_star"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/star_fill" />
+
+        <!-- Word Title -->
+        <TextView
+            android:id="@+id/word_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/icon_star"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:text="Word Title"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!-- Dropdown Icon -->
+        <ImageView
+            android:id="@+id/icon_dropdown"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_down_fill"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+    <!-- Word Detail (Initially hidden) -->
+    <LinearLayout
+        android:id="@+id/detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp">
+
+        <!-- Detail Text -->
+        <TextView
+            android:id="@+id/word_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Text"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="4dp" />
+        <TextView
+            android:id="@+id/arti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Text"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="4dp" />
+
+
+        <!-- Additional explanation if needed -->
+
+        <TextView
+            android:id="@+id/word_explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artinya tindakan memotong anggota tubuh dengan operasi."
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+</LinearLayout>

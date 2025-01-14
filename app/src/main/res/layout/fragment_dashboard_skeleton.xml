@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Top Section Shimmer -->
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmerTopSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/skeleton_background" />
+
+                    <View
+                        android:layout_width="150dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/skeleton_background" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/skeleton_background" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <!-- Hot Feature Section Shimmer -->
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/shimmerTopSection">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/skeleton_background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:background="@drawable/skeleton_circle" />
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/skeleton_background" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:background="@drawable/skeleton_circle" />
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/skeleton_background" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:background="@drawable/skeleton_circle" />
+
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/skeleton_background" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <!-- Monthly Stats Section Shimmer -->
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmerLayoutBawah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/shimmerLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <View
+                    android:layout_width="140dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/skeleton_background" />
+
+                <!-- Stats Card 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/skeleton_card_background"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/skeleton_circle" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="200dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/skeleton_background" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="14dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/skeleton_background" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/skeleton_circle" />
+                </LinearLayout>
+
+                <!-- Stats Card 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/skeleton_card_background"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/skeleton_circle" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="200dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/skeleton_background" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="14dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/skeleton_background" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/skeleton_circle" />
+                </LinearLayout>
+
+                <!-- Stats Card 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/skeleton_card_background"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/skeleton_circle" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="200dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/skeleton_background" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="14dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/skeleton_background" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/skeleton_circle" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

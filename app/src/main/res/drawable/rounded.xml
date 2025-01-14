@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="30dp" /> <!-- Sesuaikan radius sesuai keinginan -->
+    <solid android:color="#E0E0E0" /> <!-- Sesuaikan warna background sesuai keinginan -->
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" /> <!-- Sesuaikan padding sesuai keinginan -->
+</shape>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521746173076",
+    "project_id": "jalu-c9cec",
+    "storage_bucket": "jalu-c9cec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521746173076:android:e88d40d85c85bed0a77881",
+        "android_client_info": {
+          "package_name": "com.skripsi.jalu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByQ5Ymn7Csi5sOhCHYVMVwSl84DToiiCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Jalu</string>
+
+    <string name="go_button_text">Go</string>
+    <string name="stop_button_text">Stop</string>
+    <!-- login dan register -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="inputEmail">Masukan Email</string>
+    <string name="inputPassword">Masukan Password</string>
+    <string name="notRegister">Belum Punya Akun?</string>
+    <string name="registerNavigation">Daftar Sekarang</string>
+    <string name="loginButton">Login</string>
+
+
+    <!-- Bottom Navbar -->
+    <string name="title_laporan_detail">Laporan Detail</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_monitoring">Monitoring</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_laporan">Laporan</string>
+    <string name="title_product">Batik</string>
+    <string name="title_profile">Profile</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="scan_detail">Scan Detail</string>
+    <!-- Scan Activity -->
+
+    <string name="description_img">Tambahkan Gambar Yang Mau Kamu Scan</string>
+    <string name="gallery">Pilih Dari Galeri</string>
+    <string name="scan">Scan Menggunakan Kamera</string>
+    <string name="scan_now">Scan Sekarang</string>
+
+    <!-- Dashboard Fragment -->
+
+    <string name="hot_feature">Hot Feature</string>
+    <string name="article">Article</string>
+    <string name="events">Events</string>
+    <string name="scan_hot">Scan</string>
+    <string name="community">Community</string>
+    <string name="batik_pilihan">Batik Pilihan</string>
+
+
+
+    <!-- Entry Activity -->
+    <string name="heading1">Mulai Kenali dan Deteksi Kata Serapan
+        Melalui Aplikasi SerTect.</string>
+    <string name="description">#Sertect, rekam dan deteksi dimanapun kapanpun, tambah wawasan pada aplikasi Sertect.</string>
+
+    <string name="note">Deskripsi</string>
+    <string name="buat_posting">Buat Postingan</string>
+
+</resources>

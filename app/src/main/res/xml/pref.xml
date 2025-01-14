@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        app:key="notif"
+        app:summary="none"
+        app:title="Notification" />
+    <SwitchPreference
+        app:key="dark"
+        app:summary="Dark Theme"
+        app:title="Dark Theme" />
+    <Preference
+        app:key="logout"
+        app:summary="Tap to log out"
+        app:title="Logout" />
+</PreferenceScreen>

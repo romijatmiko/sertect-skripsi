@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Profil dan Tombol Edit Skeleton -->
+    <LinearLayout
+        android:id="@+id/linear_pertama_skeleton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:elevation="10dp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_button_edit_profile"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Profile Picture Skeleton -->
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/circle_background"
+            android:backgroundTint="@color/gray"/>
+
+        <!-- Informasi User Skeleton -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Username Skeleton -->
+            <View
+                android:layout_width="100dp"
+                android:layout_height="14sp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/gray"
+                android:layout_marginBottom="4dp"/>
+
+            <!-- Email Skeleton -->
+            <View
+                android:layout_width="150dp"
+                android:layout_height="14sp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/gray"/>
+        </LinearLayout>
+
+        <!-- Edit Profile Button Skeleton -->
+        <View
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:background="@drawable/skeleton_background"
+            android:backgroundTint="@color/gray"/>
+
+    </LinearLayout>
+
+    <!-- Bagian Aktivitas dan Tombol Keluar Akun Skeleton -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintkedua_skeleton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/linear_pertama_skeleton"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Activity Button Skeleton -->
+        <View
+            android:id="@+id/btn_activity_skeleton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/skeleton_background"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!-- Filter Button Skeleton -->
+        <View
+            android:id="@+id/icon_button_skeleton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_background"
+            android:backgroundTint="@color/gray"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!-- Notification Items Skeleton -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintTop_toBottomOf="@id/btn_activity_skeleton"
+            app:layout_constraintBottom_toTopOf="@id/btn_keluar_akun_skeleton">
+
+            <!-- Notification Item 1 -->
+            <include layout="@layout/notification_item_skeleton"/>
+
+            <!-- Notification Item 2 -->
+            <include layout="@layout/notification_item_skeleton"/>
+
+            <!-- Notification Item 3 -->
+            <include layout="@layout/notification_item_skeleton"/>
+
+            <!-- Notification Item 4 -->
+            <include layout="@layout/notification_item_skeleton"/>
+
+        </LinearLayout>
+
+        <!-- Logout Button Skeleton -->
+        <View
+            android:id="@+id/btn_keluar_akun_skeleton"
+            android:layout_width="391dp"
+            android:layout_height="45dp"
+            android:background="@drawable/skeleton_background"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Shimmer Layout -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33FFFFFF"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:elevation="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:background="@drawable/rounded_monitoring"
+    android:gravity="center_vertical">
+
+    <!-- Icon on the left -->
+<ImageView
+    android:padding="3dp"
+android:id="@+id/iconLaporan"
+android:layout_width="80dp"
+android:layout_height="50dp"
+android:src="@drawable/ada"
+    android:layout_marginEnd="8dp"/>
+
+<LinearLayout
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="vertical">
+
+<!-- Title of the report -->
+<TextView
+    android:id="@+id/tvJudulLaporan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Monitoring Tanggal 27 April"
+    android:textStyle="bold"
+    android:textSize="15sp"
+    android:textColor="@android:color/black"/>
+
+<!-- Subtitle with the date and time -->
+<TextView
+    android:id="@+id/tvTanggalLaporan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Monday, 8 July 2024. 07.00 AM"
+    android:textSize="12sp"
+    android:textColor="@android:color/black"/>
+</LinearLayout>
+
+    <!-- Prediction button on the right -->
+    <Button
+        android:id="@+id/btnPrediksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediksi"
+        android:background="@drawable/dashboard_rounded"
+        android:backgroundTint="@color/bluenew"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+    android:minWidth="80dp"
+    android:minHeight="24dp"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="2dp"
+    />
+    </LinearLayout>

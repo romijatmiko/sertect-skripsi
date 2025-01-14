@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="384dp"
+        android:layout_height="289dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alerth"
+        tools:layout_editor_absoluteX="11dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="379dp"
+        android:layout_height="83dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Terdeteksi Kata Serapan, Data Belum Ada pada Database"
+        android:textColor="@color/bluenew"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="375dp"
+        android:layout_height="161dp"
+        android:text="Pengguna Yang Terhormat, Aplikasi Mendeteksi Beberapa Kata Serapan. Namun Sayang Kata Tersebut Belum Ada di Database Kami"
+        android:textColor="@color/black"
+    android:fontFamily="monospace"
+    android:gravity="center"
+    android:padding="8dp"
+    android:lineSpacingExtra="8dp"
+    android:letterSpacing="0.1"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

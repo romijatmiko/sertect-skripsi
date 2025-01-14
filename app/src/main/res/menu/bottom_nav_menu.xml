@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_monitoring"
+        android:icon="@drawable/monitoring"
+        android:title="@string/title_monitoring" />
+    <item
+        android:id="@+id/navigation_laporan"
+        android:icon="@drawable/vector"
+        android:title="@string/title_laporan" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/account_circle"
+        android:title="@string/title_profile" />
+
+</menu>
